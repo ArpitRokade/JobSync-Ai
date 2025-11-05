@@ -1,4 +1,6 @@
+# JobSync AI
 
+```
 jobsync-ai
 ├─ backend
 │  ├─ package-lock.json
@@ -26,35 +28,53 @@ jobsync-ai
 │        ├─ SignupPage.js
 │        └─ UploadPage.js
 └─ README.md
+```
 
+---
 
-🚀 How to Run JobSync AI
+## 🚀 How to Run JobSync AI
 
-Clone the Repository
-command : git clone https://github.com/your-username/jobsync-ai.git command : cd jobsync-ai
+### 1. Clone the Repository
 
-Setup Backend command :cd backend command :npm install command :npm start
+```bash
+git clone https://github.com/your-username/jobsync-ai.git
+cd jobsync-ai
+```
+
+### 2. Setup Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
 This will start the backend server (Node.js + Express).
 
-Setup Frontend
-Open a new terminal:
+### 3. Setup Frontend
 
-command :cd frontend command :npm install command :npm start
+Open a **new terminal** window/tab:
+
+```bash
+cd frontend
+npm install
+npm start
+```
 
 This will start the React frontend.
 
-Access the Application
-Once both servers are running:
+---
 
-Frontend → http://localhost:3000
+## Access the Application
 
-Backend API → http://localhost:5000
+- **Frontend**: [http://localhost:3000](http://localhost:3000)
+- **Backend API**: [http://localhost:5000](http://localhost:5000)
 
-Upload Resume & Job Description
-Sign up / log in.
+---
 
-Upload a Resume (.pdf/.docx).
+## 💡 Features
 
-Paste or upload a Job Description.
-
-Get a match score, missing skills, and course recommendations instantly.
+- **Sign up / Log in**
+- **Upload a Resume** (.pdf/.docx)
+- **Paste or Upload a Job Description**
+- **Get a Match Score, Missing Skills, and Course Recommendations Instantly**
