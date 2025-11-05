@@ -3,7 +3,7 @@ jobsync-ai
 ├─ backend
 │  ├─ package-lock.json
 │  ├─ package.json
-│  ├─ routes
+│  ├─ routes 
 │  │  └─ upload.js
 │  ├─ server.js
 │  └─ utils
